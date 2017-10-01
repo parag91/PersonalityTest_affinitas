@@ -1,0 +1,20 @@
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        password: karan123
+        url: jdbc:mysql://localhost:3306/personality?useSSL=false
+        username: karan
+        
+    jpa:
+        properties:
+            hibernate:
+                format_sql: true
+                show_sql: true
+                type: 'debug'
+                use_sql_comments: true
+server:
+        port: 9000
+        
+security:
+    basic:
+        enabled: false                                 
